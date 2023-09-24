@@ -20,7 +20,7 @@ display:flex;
 justify-content:space-around;
 align-items:center;
 color: white;
-@media(max-width:360px){
+@media(max-width:400px){
     flex-direction:column;
     .copy{
       width:301px;

@@ -35,7 +35,7 @@ color: white;
 .mobile{
     display:none;
 }
-@media(max-width:360px){
+@media(max-width:400px){
       .desktop{
          display:none;
         }   

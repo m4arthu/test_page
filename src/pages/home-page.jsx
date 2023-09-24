@@ -59,7 +59,7 @@ const SubHeader = styled.div`
         width:88px;
     }
    }
-   @media(max-width:360px){
+   @media(max-width:400px){
     margin:20px 20px;
     .left{
         width:106px;
@@ -84,7 +84,7 @@ const Status = styled.div`
     font-size:24px;
     font-weight:400
    }
-   @media(max-width:360px){
+   @media(max-width:400px){
     h1{
         font-size:32px;
         line-height: 45px;
@@ -114,7 +114,7 @@ const OrderStatus = styled.div`
         font-weight:700;
     }
  }
- @media(max-width:360px){
+ @media(max-width:400px){
     margin:20px 10px;
     img{
         width:20px;
@@ -142,7 +142,7 @@ justify-content:center;
     display:flex;
     width:1200px;
 }
-@media(max-width:360px){
+@media(max-width:400px){
     .body-container{
         flex-direction:column;
         align-items:center;
@@ -159,7 +159,7 @@ img{
     width:585px;
 }
 
-@media(max-width:360px){
+@media(max-width:400px){
     img{
         width:320px;
     }
