@@ -4,8 +4,8 @@ import secure256 from "../assets/Frame 1000001268.png"
 export const Bottom = () =>{
   return (
     <BottomContainer>
-        <img src={copyright} alt="" />
-        <img src={secure256} alt="" />
+        <img className="copy" src={copyright} alt="" />
+        <img className="secure" src={secure256} alt="" />
     </BottomContainer>
   )
 }
@@ -20,6 +20,15 @@ display:flex;
 justify-content:space-around;
 align-items:center;
 color: white;
+@media(max-width:360px){
+    flex-direction:column;
+    .copy{
+      width:301px;
+    }
+    .secure{
+      width:201px;
+    }
+}
 
 `
 
